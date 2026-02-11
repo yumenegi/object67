@@ -2,9 +2,62 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid a52a93a9-ab60-414c-847b-3047ce4056cf)
+	(uuid "a52a93a9-ab60-414c-847b-3047ce4056cf")
 	(paper "A4")
 	(lib_symbols)
+	(text "OBJECT 67"
+		(exclude_from_sim no)
+		(at 143.002 57.912 0)
+		(effects
+			(font
+				(face "DIN 1451 fette Breitschrift 1936")
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "5a3afa13-6d10-4d44-958e-8a86963f7354")
+	)
+	(sheet
+		(at 69.85 99.06)
+		(size 44.45 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d7be8e2-05a1-49f5-8994-604be09973f2")
+		(property "Sheetname" "Mixed Signal Main Board"
+			(at 69.85 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "xsp_main.kicad_sch"
+			(at 69.85 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "object67"
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
