@@ -2185,7 +2185,7 @@
 	)
 	(rectangle
 		(start 115.57 25.4)
-		(end 204.47 74.93)
+		(end 204.47 76.835)
 		(stroke
 			(width 0)
 			(type default)
@@ -2215,6 +2215,16 @@
 		)
 		(uuid "5f8eee4b-d141-4d15-8f5a-d4b079b7c372")
 	)
+	(text "Todo:\n\nAdd connectors for faders\n	To MCU & to faders\nAdd connectors for io & display\n	Need display info\nSPDIF\n	Toslink optocoupler & Coax signal buffers\n\nAnalog buffer between dac and amplifier\n	Implement MFB filter using OPA1612/1611\n		Read TI reference for filter implementation\n		Use filter scheme in DAC datasheet (AK4493)\n	Use tight resistors & capacitors\n		"
+		(exclude_from_sim no)
+		(at 232.664 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca7fb7f4-e285-4a2f-a834-6477308b9329")
+	)
 	(text_box "Notes:\n	VM smoothing cap value ≥ 10u\n	VINT cap rated for ≥ 6.3V\n	VCP cap using X7R & rated for ≥ 16V\n	R1 & R2 for current sense - not strictly necessarry \n	~{SLEEP} internal pulldown - required high for operation\n	~{FAULT} requires external pulldown - signals overtemp / overcurrent\n	xISEN voltage range: -0.3 - 0.5 V; Motors driven @ 5V -> 625mA = ±0.125V\n	Digital inputs may be driven up to 5.25V"
 		(exclude_from_sim no)
 		(at 20.32 86.36 0)
@@ -2235,10 +2245,10 @@
 		)
 		(uuid "16be9d12-18ea-40ac-b2ae-4551fa07add6")
 	)
-	(text_box "Consult datasheet for sourcing of inductor & capacitors\nEN pulled high -> device will always be operational when powered\nPlace C4 between DC/DC & motor driver"
+	(text_box "Consult datasheet for sourcing of inductor & capacitors\nEN pulled high -> device will always be operational when powered\nPlace C4 between DC/DC & motor driver\nConnect EN to MCU - Can be turned off periodically to reduce noise\n"
 		(exclude_from_sim no)
 		(at 115.57 67.31 0)
-		(size 88.9 7.62)
+		(size 88.9 9.525)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
