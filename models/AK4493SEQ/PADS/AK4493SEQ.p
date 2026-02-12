@@ -1,0 +1,67 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+AK4493SEQ QFP50P900X900X160-48N I ANA 9 1 0 0 0
+TIMESTAMP 2026.02.11.19.11.02
+"Manufacturer_Name" Asahi Kasei Microdevices
+"Manufacturer_Part_Number" AK4493SEQ
+"Mouser Part Number" 412-AK4493SEQ
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Asahi-Kasei-Microdevices/AK4493SEQ?qs=vvQtp7zwQdNLz7hR9sAnvg%3D%3D
+"Arrow Part Number" AK4493SEQ
+"Arrow Price/Stock" https://www.arrow.com/en/products/ak4493seq/asahi-kasei-microdevices-corporation?region=nac
+"Description" Audio D/A Converter ICs Premium DAC Gen3+ 32bit 768kHz 125dB 2ch DSD SCDF
+"Datasheet Link" https://info2.akm.com/NTY4LUFQSi0yNTUAAAGIKypGfocQFOnegEJYsrVIex-YBlHLm3GLtyIKKfwqo7Ul6QoYTQp5_r0JA_JYYGJWnu6VszM=
+"Geometry.Height" 1.6mm
+GATE 1 48 0
+AK4493SEQ
+1 0 U DVDD
+2 0 U PDN
+3 0 U BICK/DCLK/BCK
+4 0 U SDATA/DSDL/DINL
+5 0 U LRCK/DSDR/DINR
+6 0 U SSLOW/WCK
+7 0 U SMUTE/CSN
+8 0 U SD/CCLK/SCL
+9 0 U SLOW/CDTI/SDA
+10 0 U DIF0/DZFL
+11 0 U DIF1/DZFR
+12 0 U DIF2/CAD0
+13 0 U PSN
+14 0 U I2C/INV
+15 0 U DEM0
+16 0 U LDOE
+17 0 U ACKS/CAD1
+18 0 U TESTE
+19 0 U VREFHR_1
+20 0 U VREFHR_2
+21 0 U VREFLR_1
+22 0 U VREFLR_2
+23 0 U VCMR
+24 0 U NC_1
+36 0 U AOUTLP
+35 0 U AOUTLN
+34 0 U VDDL_2
+33 0 U VDDL_1
+32 0 U VSSL_2
+31 0 U VSSL_1
+30 0 U VSSR_2
+29 0 U VSSR_1
+28 0 U VDDR_2
+27 0 U VDDR_1
+26 0 U AOUTRN
+25 0 U AOUTRP
+48 0 U TVDD
+47 0 U DVSS
+46 0 U MCLK
+45 0 U AVSS
+44 0 U AVDD
+43 0 U NC_3
+42 0 U VREFHL_2
+41 0 U VREFHL_1
+40 0 U VREFLL_2
+39 0 U VREFLL_1
+38 0 U VCML
+37 0 U NC_2
+
+*END*
+*REMARK* SamacSys ECAD Model
+17102589/1895425/2.50/48/3/Integrated Circuit

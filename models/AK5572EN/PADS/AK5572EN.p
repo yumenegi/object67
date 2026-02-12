@@ -1,0 +1,68 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+AK5572EN QFN50P700X700X100-49N-D I ANA 9 1 0 0 0
+TIMESTAMP 2026.02.12.04.44.03
+"Manufacturer_Name" Asahi Kasei Microdevices
+"Manufacturer_Part_Number" AK5572EN
+"Mouser Part Number" 412-AK5572EN
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Asahi-Kasei-Microdevices/AK5572EN?qs=vvQtp7zwQdN5nUCcqQXzfA%3D%3D
+"Arrow Part Number" AK5572EN
+"Arrow Price/Stock" https://www.arrow.com/en/products/ak5572en/asahi-kasei-microdevices-corporation?utm_currency=USD&region=nac
+"Description" IC ADC/AUDIO 32BIT 768K 48QFN
+"Datasheet Link" https://www.akm.com/akm/en/file/datasheet/AK5572EN.pdf
+"Geometry.Height" 1mm
+GATE 1 49 0
+AK5572EN
+1 0 U NC_1
+2 0 U VREFL1
+3 0 U VREFH1
+4 0 U AIN2N
+5 0 U AIN2P
+6 0 U AVDD
+7 0 U AVSS
+8 0 U TESTIN1
+9 0 U TESTIN2
+10 0 U TESTIN3
+11 0 U TESTIN4
+12 0 U NC_2
+13 0 U TESTIN5
+14 0 U TESTIN6
+15 0 U TEST
+16 0 U MCLK
+17 0 U TVDD
+18 0 U DVSS
+19 0 U VDD18
+20 0 U PDN
+21 0 U PW0
+22 0 U PW1
+23 0 U PW2
+24 0 U MSN
+36 0 U SD/PMOD
+35 0 U SLOW/DCKB
+34 0 U CKS3/CAD1
+33 0 U CKS2/SCL/CCLK
+32 0 U CKS1/CAD0_I2C/CSN
+31 0 U CKS0/SDA/CDTI
+30 0 U OVF
+29 0 U TESTO1
+28 0 U SDTO1
+27 0 U TDMIN/DSDOR1
+26 0 U LRCK/DSDOL1
+25 0 U BICK/DCLK
+49 0 U EPAD
+48 0 U AIN1N
+47 0 U AIN1P
+46 0 U ODP
+45 0 U LDOE
+44 0 U HPFE/DCKS
+43 0 U DP
+42 0 U I2C
+41 0 U PSN/CAD0_SPI
+40 0 U TDM1
+39 0 U TDM0
+38 0 U DIF1/DSDSEL1
+37 0 U DIF0/DSDSEL0
+
+*END*
+*REMARK* SamacSys ECAD Model
+675641/1895425/2.50/49/3/Integrated Circuit

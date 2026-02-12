@@ -1,0 +1,19 @@
+.AK4493SEQ :1 ;Audio D/A Converter ICs Premium DAC Gen3+ 32bit 768kHz 125dB 2ch DSD SCDF
+QFP50P900X900X160-48N
+*STM IC
+*NGS
+*PLB 1="DVDD" 2="PDN" 3="BICK/DCLK/BCK" 4="SDATA/DSDL/DINL" 5="LRCK/DSDR/DINR" 6="SSLOW/WCK" 7="SMUTE/CSN" 8="SD/CCLK/SCL" 9="SLOW/CDTI/SDA" 10="DIF0/DZFL" 11="DIF1/DZFR" 12="DIF2/CAD0" 13="PSN" 14="I2C/INV" 15="DEM0" 16="LDOE" 17="ACKS/CAD1" 18="TESTE" 19="VREFHR_1" 20="VREFHR_2" 21="VREFLR_1" 22="VREFLR_2" 23="VCMR" 24="NC_1" 25="AOUTRP" 26="AOUTRN" 27="VDDR_1" 28="VDDR_2" 29="VSSR_1" 30="VSSR_2" 31="VSSL_1" 32="VSSL_2" 33="VDDL_1" 34="VDDL_2" 35="AOUTLN" &
+36="AOUTLP" 37="NC_2" 38="VCML" 39="VREFLL_1" 40="VREFLL_2" 41="VREFHL_1" 42="VREFHL_2" 43="NC_3" 44="AVDD" 45="AVSS" 46="MCLK" 47="DVSS" 48="TVDD"
+*MXP 48
+*DFN AK4493SEQ
+~!Manufacturer_Name (Asahi Kasei Microdevices)
+~!Manufacturer_Part_Number (AK4493SEQ)
+~!Mouser Part Number (412-AK4493SEQ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Asahi-Kasei-Microdevices/AK4493SEQ?qs=vvQtp7zwQdNLz7hR9sAnvg%3D%3D)
+~!Arrow Part Number (AK4493SEQ)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ak4493seq/asahi-kasei-microdevices-corporation?region=nac)
+~!Link Datasheet (https://info2.akm.com/NTY4LUFQSi0yNTUAAAGIKypGfocQFOnegEJYsrVIex-YBlHLm3GLtyIKKfwqo7Ul6QoYTQp5_r0JA_JYYGJWnu6VszM=)
+~!Height (1.6mm)
+~!3D_Model (AK4493SEQ)
+AK4493SEQ
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 48.1!U 47.1!U 46.1!U 45.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 

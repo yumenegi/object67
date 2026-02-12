@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AK4493SEQ'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Asahi Kasei Microdevices", "AK4493SEQ" (!) = "", "QFP50P900X900X160-48N", "Quad Flat Packages", "412-AK4493SEQ", "https://www.mouser.co.uk/ProductDetail/Asahi-Kasei-Microdevices/AK4493SEQ?qs=vvQtp7zwQdNLz7hR9sAnvg%3D%3D", "AK4493SEQ", "https://www.arrow.com/en/products/ak4493seq/asahi-kasei-microdevices-corporation?region=nac", "Audio D/A Converter ICs Premium DAC Gen3+ 32bit 768kHz 125dB 2ch DSD SCDF", "https://info2.akm.com/NTY4LUFQSi0yNTUAAAGIKypGfocQFOnegEJYsrVIex-YBlHLm3GLtyIKKfwqo7Ul6QoYTQp5_r0JA_JYYGJWnu6VszM=", "1.6 mm"
+END_PART
+
+END.

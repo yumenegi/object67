@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LMK1C1104DQFR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=8
+Version=1.1
+Released=2021-07-09 10:36:25
+Downloaded=2026-02-11 19:32:39
+3D=Y

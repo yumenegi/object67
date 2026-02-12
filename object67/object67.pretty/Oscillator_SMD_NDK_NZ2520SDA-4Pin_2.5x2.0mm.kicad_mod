@@ -1,0 +1,173 @@
+(footprint "Oscillator_SMD_NDK_NZ2520SDA-4Pin_2.5x2.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XO (Standard) CMOS Oscillator 3.3V Standby (Power Down) 4-SMD, No Lead")
+	(property "Reference" "REF**"
+		(at -2.825 0 90)
+		(layer "F.SilkS")
+		(uuid "d833a310-fa45-49a4-9408-c494d4821dc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "65479c82-fad0-4d12-9f09-acfa3040baf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b962aef-3079-4fda-b144-64486c6a5c8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5df0424-b96f-468d-b307-7303a2e8eb45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.825 -1.625)
+		(end 1.825 -1.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ffb71812-b6f0-4b0c-a4b3-e9092006f58a")
+	)
+	(fp_line
+		(start -1.825 0.825)
+		(end -1.825 -1.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a16dc73b-243d-41e6-9b46-353ac25e9cc9")
+	)
+	(fp_line
+		(start -1.025 1.625)
+		(end -1.825 0.825)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ce7e3e6-3dba-47c8-8d52-75eaa92f8f4b")
+	)
+	(fp_line
+		(start 1.825 -1.625)
+		(end 1.825 1.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3817645b-e929-4379-9e16-0a125e2d96cb")
+	)
+	(fp_line
+		(start 1.825 1.625)
+		(end -1.025 1.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6801146-eb9a-47f3-a494-b9a06186da7c")
+	)
+	(fp_line
+		(start -1.58 -1.38)
+		(end 1.58 -1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7fb19e96-953a-4ac9-82e8-300ed69b2b8e")
+	)
+	(fp_line
+		(start -1.58 1.38)
+		(end -1.58 -1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcbaccec-3735-40aa-a2d2-29c5eb973cf3")
+	)
+	(fp_line
+		(start 1.58 -1.38)
+		(end 1.58 1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0011d01b-6178-4f81-8f83-9eb95258e21c")
+	)
+	(fp_line
+		(start 1.58 1.38)
+		(end -1.58 1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fed3d7ce-0158-4cda-a3cb-cb816d967350")
+	)
+	(pad "1" smd rect
+		(at -0.825 0.625)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "86c45d1f-0204-48c2-bc7c-3f52e4c46063")
+	)
+	(pad "2" smd rect
+		(at 0.825 0.625)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "49914dc5-eea7-4e81-a4d6-c1a9b19db4e2")
+	)
+	(pad "3" smd rect
+		(at 0.825 -0.625)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "42ef7c0a-06fa-4961-9a97-f7babc38de4a")
+	)
+	(pad "4" smd rect
+		(at -0.825 -0.625)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "aab6e536-c9a8-43c8-93e2-b76d452e4b31")
+	)
+	(embedded_fonts no)
+)

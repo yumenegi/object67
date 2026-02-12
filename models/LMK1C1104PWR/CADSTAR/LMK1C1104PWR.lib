@@ -1,0 +1,18 @@
+.LMK1C1104PWR :1 ;Clock Buffer 4 Channel Output LVCMOS 1.8V Buffer 8-TSSOP -40 to 125
+SOP65P640X120-8N
+*STM IC
+*NGS
+*PLB 1="CLKIN" 2="1G" 3="Y0" 4="GND" 5="Y2" 6="VDD" 7="Y3" 8="Y1"
+*MXP 8
+*DFN LMK1C1104PWR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LMK1C1104PWR)
+~!Mouser Part Number (595-LMK1C1104PWR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMK1C1104PWR?qs=xZ%2FP%252Ba9zWqZKsBQFHYffew%3D%3D)
+~!Arrow Part Number (LMK1C1104PWR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lmk1c1104pwr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/gpn/LMK1C1104)
+~!Height (1.2mm)
+~!3D_Model (LMK1C1104PWR)
+LMK1C1104PWR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AK5572EN'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Asahi Kasei Microdevices", "AK5572EN" (!) = "", "QFN50P700X700X100-49N-D", "Quad Flat No-Lead", "412-AK5572EN", "https://www.mouser.co.uk/ProductDetail/Asahi-Kasei-Microdevices/AK5572EN?qs=vvQtp7zwQdN5nUCcqQXzfA%3D%3D", "AK5572EN", "https://www.arrow.com/en/products/ak5572en/asahi-kasei-microdevices-corporation?utm_currency=USD&region=nac", "IC ADC/AUDIO 32BIT 768K 48QFN", "https://www.akm.com/akm/en/file/datasheet/AK5572EN.pdf", "1 mm"
+END_PART
+
+END.

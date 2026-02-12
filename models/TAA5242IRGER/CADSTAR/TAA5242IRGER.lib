@@ -1,0 +1,18 @@
+.TAA5242IRGER :1 ;Stereo Audio 16 b, 20 b, 24 b, 32 b DSP, I2C, I2S, Serial, TDM 24-VQFN (4x4) , -40C ~ 125C (TA)
+TAA5242IRGER
+*STM IC
+*NGS
+*PLB 1="DREG" 2="BCLK" 3="FSYNC" 4="DOUT" 5="MD6" 6="IOVDD" 7="MD1" 8="MD2" 9="MD3" 10="MD4" 11="GPO" 12="MD5" 13="MD0" 14="MICBIAS" 15="IN1P" 16="IN1M" 17="IN2P" 18="IN2M" 19="VSSA_1" 20="VSSA_2" 21="VSSA_3" 22="VSSA_4" 23="AVDD" 24="VREF" 25="EP" 26="VSS_1" 27="VSS_2" 28="VSS_3" 29="VSS_4"
+*MXP 29
+*DFN TAA5242IRGER
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TAA5242IRGER)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (TAA5242IRGER)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/taa5242irger/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/taa5242.pdf?HQS=ti-null-null-sf-df-pf-sep-wwe&ts=1741314911989&ref_url=https%253A%252F%252Fcomponentsearchengine.com%252F)
+~!Height (1mm)
+~!3D_Model (TAA5242IRGER)
+TAA5242IRGER
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 

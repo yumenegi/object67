@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AK5572EN
+D IC ADC/AUDIO 32BIT 768K 48QFN
+K
+F https://www.akm.com/akm/en/file/datasheet/AK5572EN.pdf
+$ENDCMP
+#
+#End Doc Library

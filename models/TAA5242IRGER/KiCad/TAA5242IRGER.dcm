@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TAA5242IRGER
+D Stereo Audio 16 b, 20 b, 24 b, 32 b DSP, I2C, I2S, Serial, TDM 24-VQFN (4x4) , -40C ~ 125C (TA)
+K
+F https://www.ti.com/lit/ds/symlink/taa5242.pdf?HQS=ti-null-null-sf-df-pf-sep-wwe&ts=1741314911989&ref_url=https%253A%252F%252Fcomponentsearchengine.com%252F
+$ENDCMP
+#
+#End Doc Library

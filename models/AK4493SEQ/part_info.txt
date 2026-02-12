@@ -1,0 +1,9 @@
+Manufacturer=Asahi Kasei Microdevices
+PartNumber=AK4493SEQ
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=48
+Version=1.1
+Released=2022-11-19 03:56:25
+Downloaded=2026-02-11 19:11:02
+3D=Y

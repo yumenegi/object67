@@ -1,0 +1,18 @@
+.LMK1C1104DQFR :1 ;Clock Buffer 4-channel output LVC MOS 1.8-V buffer
+SON50P200X200X80-8N
+*STM IC
+*NGS
+*PLB 1="CLKIN" 2="1G" 3="Y0" 4="GND" 5="Y2" 6="VDD" 7="Y3" 8="Y1"
+*MXP 8
+*DFN LMK1C1104DQFR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LMK1C1104DQFR)
+~!Mouser Part Number (595-LMK1C1104DQFR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMK1C1104DQFR?qs=QNEnbhJQKvYdwt0bSAj%252Blw%3D%3D)
+~!Arrow Part Number (LMK1C1104DQFR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lmk1c1104dqfr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/lmk1c1104.pdf?ts=1625794058723&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMK1C1104)
+~!Height (0.8mm)
+~!3D_Model (LMK1C1104DQFR)
+LMK1C1104DQFR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

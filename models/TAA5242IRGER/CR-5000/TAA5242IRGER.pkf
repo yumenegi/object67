@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TAA5242IRGER"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TAA5242IRGER")
+        (spec "default")
+    )
+)
