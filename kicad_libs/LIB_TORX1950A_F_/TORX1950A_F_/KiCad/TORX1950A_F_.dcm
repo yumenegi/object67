@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TORX1950A_F_
+D Optical Receiver 10Mbps Single 50m 6-Pin )
+K
+F https://toshiba.semicon-storage.com/info/TORX1950A(F)_datasheet_en_20160418.pdf?did=45664&prodName=TORX1950A(F)
+$ENDCMP
+#
+#End Doc Library
