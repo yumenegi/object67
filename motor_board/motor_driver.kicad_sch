@@ -2114,6 +2114,18 @@
 		(uuid "870a2e7e-5ade-46be-966c-a6d7faeae9d7")
 	)
 	(junction
+		(at 168.91 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b6b8a13-f6c2-40cf-8f9b-539156613d59")
+	)
+	(junction
+		(at 168.91 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a726a4fb-046e-4edb-9ffd-840af3124e62")
+	)
+	(junction
 		(at 124.46 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2124,6 +2136,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db26192d-4e92-455b-88a3-c90ab1988f07")
+	)
+	(wire
+		(pts
+			(xy 168.91 45.72) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008d5c8f-d2a9-412e-9c55-f021639f82b1")
 	)
 	(wire
 		(pts
@@ -2254,6 +2276,16 @@
 			(type default)
 		)
 		(uuid "d2004e6c-b07e-43d7-9a8c-7a6da5eace3c")
+	)
+	(wire
+		(pts
+			(xy 168.91 36.83) (xy 168.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33a0e82-cef8-44f5-887c-84c5c2d5e184")
 	)
 	(wire
 		(pts
@@ -3317,7 +3349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "4.7u"
 			(at 149.86 34.2899 0)
 			(effects
 				(font
@@ -3960,6 +3992,75 @@
 			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/3ee30c65-97d4-477c-ab34-3fea9180008b"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93cfb554-425b-4eea-b6e6-21d1997ca25a")
+		(property "Reference" "C7"
+			(at 162.814 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 162.052 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 169.8752 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cd9b1db-ce87-4784-9892-1ad59889ee0c")
+		)
+		(pin "1"
+			(uuid "c2037bf2-bcc1-4085-862f-c23c6a55f60f")
+		)
+		(instances
+			(project "motor_board"
+				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/3ee30c65-97d4-477c-ab34-3fea9180008b"
+					(reference "C7")
 					(unit 1)
 				)
 			)
