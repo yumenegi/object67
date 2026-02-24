@@ -1040,7 +1040,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_Motor:DRV8833PW"
+		(symbol "Driver_Motor:DRV8833PWP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1052,7 +1052,7 @@
 					)
 				)
 			)
-			(property "Value" "DRV8833PW"
+			(property "Value" "DRV8833PWP"
 				(at -3.81 13.97 0)
 				(effects
 					(font
@@ -1060,8 +1060,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-				(at 5.08 -17.78 0)
+			(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias"
+				(at 5.08 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1071,7 +1071,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
-				(at 5.08 -20.32 0)
+				(at 5.08 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual H-Bridge Motor Driver, TSSOP-16"
+			(property "Description" "Dual H-Bridge Motor Driver, HTSSOP-16"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1098,7 +1098,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+			(property "ki_fp_filters" "HTSSOP*1EP*4.4x5mm*P0.65mm*EP3.4x5mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1107,7 +1107,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DRV8833PW_0_1"
+			(symbol "DRV8833PWP_0_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -1120,7 +1120,7 @@
 					)
 				)
 			)
-			(symbol "DRV8833PW_1_1"
+			(symbol "DRV8833PWP_1_1"
 				(pin input line
 					(at -12.7 10.16 0)
 					(length 2.54)
@@ -1276,6 +1276,25 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3470,120 +3489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:DRV8833PW")
-		(at 43.18 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7287f51f-fabe-4dcb-a93e-5ad169cac942")
-		(property "Reference" "U1"
-			(at 45.3233 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8833PW"
-			(at 45.3233 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm_ThermalVias"
-			(at 48.26 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
-			(at 48.26 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual H-Bridge Motor Driver, TSSOP-16"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "31611418-57b0-4fb1-9cfa-a486084452c5")
-		)
-		(pin "9"
-			(uuid "959de05a-c303-489b-b25d-99e7fbe5ee2e")
-		)
-		(pin "5"
-			(uuid "fc91d84c-8c81-4b2a-8171-46bfb860fb5f")
-		)
-		(pin "10"
-			(uuid "e3e9273a-40cf-4548-b999-71d5a5b45f24")
-		)
-		(pin "7"
-			(uuid "dcf4dc49-3e17-4ec7-b4ca-254a5dfdf6bc")
-		)
-		(pin "13"
-			(uuid "660ea4d7-91bc-42fb-b334-8faa35c65c93")
-		)
-		(pin "11"
-			(uuid "e0d56f87-64d8-48d8-84ed-515c0497fddd")
-		)
-		(pin "6"
-			(uuid "8b8fd1cc-d8ce-4d89-9fb3-650f133ca936")
-		)
-		(pin "3"
-			(uuid "ac4f54f0-0bed-4fa5-a52e-bffa7b79f5aa")
-		)
-		(pin "15"
-			(uuid "5691c443-9e32-4c1d-8d83-093ba204c2e9")
-		)
-		(pin "16"
-			(uuid "e1f3a476-df02-40e2-8ea8-866f326a8e99")
-		)
-		(pin "1"
-			(uuid "b88a30ec-cd58-4d2a-8e53-3db5c1ccf161")
-		)
-		(pin "4"
-			(uuid "f5133eb5-a376-4e21-8350-3b5fe42e7d96")
-		)
-		(pin "2"
-			(uuid "2ca32ab6-aa09-4ee9-a7e9-1898bb0aa135")
-		)
-		(pin "8"
-			(uuid "71d7f9e3-803a-476c-a5ca-2ed1b13ae44d")
-		)
-		(pin "12"
-			(uuid "67585360-e813-4c0b-b362-3933bcaf5ff1")
-		)
-		(instances
-			(project "motor_board"
-				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/3ee30c65-97d4-477c-ab34-3fea9180008b"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 43.18 54.61 0)
 		(unit 1)
@@ -4541,6 +4446,123 @@
 			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/3ee30c65-97d4-477c-ab34-3fea9180008b"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:DRV8833PWP")
+		(at 43.18 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea2afa6f-37a3-4c54-ac16-c52df75a61d5")
+		(property "Reference" "U1"
+			(at 45.3233 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8833PWP"
+			(at 45.3233 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias"
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual H-Bridge Motor Driver, HTSSOP-16"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "f5ccbec4-94a6-4619-824d-8f68f6fc54f3")
+		)
+		(pin "9"
+			(uuid "403d296a-4573-4eac-8ccc-698b234a0fc0")
+		)
+		(pin "15"
+			(uuid "90f3a26a-efec-456c-be42-0f3245877f88")
+		)
+		(pin "16"
+			(uuid "c6c27b63-a610-4167-bf2b-b236eda2e2aa")
+		)
+		(pin "6"
+			(uuid "604d27a6-6a6c-4414-be10-80efcff0a19a")
+		)
+		(pin "3"
+			(uuid "cbc12da6-4610-49a4-acd2-282123122fc4")
+		)
+		(pin "11"
+			(uuid "fdd9f15d-620c-45e9-be2a-954596af49e7")
+		)
+		(pin "8"
+			(uuid "703a3087-0bb6-4c29-b5cd-5dfae72e90f3")
+		)
+		(pin "7"
+			(uuid "52c0bcaa-cc8a-419c-9be1-5b21d48ace85")
+		)
+		(pin "2"
+			(uuid "1de76871-d650-4547-9b75-c50e564bc50e")
+		)
+		(pin "5"
+			(uuid "3c8bf7d8-9213-420f-b4d1-7d8ac170536c")
+		)
+		(pin "14"
+			(uuid "cf6eb8be-fdb5-4fa1-8746-5fb17a47d011")
+		)
+		(pin "12"
+			(uuid "b393d57a-f942-494f-af60-60ffa9d05057")
+		)
+		(pin "13"
+			(uuid "25760e85-0b36-4dfe-bfa5-3d29cdff9a0e")
+		)
+		(pin "1"
+			(uuid "fe2c0717-2e35-426a-b868-eaae5602c196")
+		)
+		(pin "10"
+			(uuid "1c84991e-83d2-40fc-88ae-e94bece9a0ef")
+		)
+		(pin "4"
+			(uuid "8b786ada-ded7-47f0-ae62-4ba4193b6726")
+		)
+		(instances
+			(project ""
+				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/3ee30c65-97d4-477c-ab34-3fea9180008b"
+					(reference "U1")
 					(unit 1)
 				)
 			)
