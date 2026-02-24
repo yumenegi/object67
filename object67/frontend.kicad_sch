@@ -6053,7 +6053,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1"
+		(property "Value" "1.1k"
 			(at 152.4 115.57 90)
 			(effects
 				(font
@@ -6855,7 +6855,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1"
+		(property "Value" "1.1k"
 			(at 153.67 163.83 90)
 			(effects
 				(font
@@ -9548,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1"
+		(property "Value" "1.1k"
 			(at 67.31 113.03 90)
 			(effects
 				(font
@@ -13119,7 +13119,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1"
+		(property "Value" "1.1k"
 			(at 68.58 161.29 90)
 			(effects
 				(font
