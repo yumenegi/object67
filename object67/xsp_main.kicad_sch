@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 78.74 100.33)
+		(at 205.74 118.11)
 		(size 55.88 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "006d0bff-33b2-4be6-84af-b40b2edde804")
 		(property "Sheetname" "Motor Controller"
-			(at 78.74 99.6184 0)
+			(at 205.74 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "motor.kicad_sch"
-			(at 78.74 135.2046 0)
+			(at 205.74 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 53.34)
+		(at 204.47 71.12)
 		(size 55.88 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -69,7 +69,7 @@
 		)
 		(uuid "30fca41d-7092-44d3-82bc-0f6b1e155540")
 		(property "Sheetname" "Analog Frontend"
-			(at 175.26 52.6284 0)
+			(at 204.47 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,7 +78,7 @@
 			)
 		)
 		(property "Sheetfile" "frontend.kicad_sch"
-			(at 175.26 90.7546 0)
+			(at 204.47 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,8 +100,8 @@
 		)
 	)
 	(sheet
-		(at 73.66 36.83)
-		(size 66.04 54.61)
+		(at 205.74 22.86)
+		(size 58.42 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -116,7 +116,7 @@
 		)
 		(uuid "f43f4198-176f-4b92-97fe-5a3f8cda9d3b")
 		(property "Sheetname" "Audio"
-			(at 73.66 36.1184 0)
+			(at 205.74 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 73.66 92.0246 0)
+			(at 205.74 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
