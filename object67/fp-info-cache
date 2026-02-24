@@ -1,4 +1,4 @@
-27440220818154467
+27441992732114781
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108744,6 +108744,13 @@ Varistor VF
 0
 2
 2
+object67
+DUALRCA
+
+
+0
+3
+3
 object67
 Oscillator_SMD_NDK_NZ2520SDA-4Pin_2.5x2.0mm
 XO (Standard) CMOS Oscillator 3.3V Standby (Power Down) 4-SMD, No Lead
