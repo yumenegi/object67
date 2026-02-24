@@ -45,6 +45,58 @@
 					(page "3")
 				)
 			)
+			(project "xsp_main"
+				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 53.34)
+		(size 55.88 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30fca41d-7092-44d3-82bc-0f6b1e155540")
+		(property "Sheetname" "Analog Frontend"
+			(at 175.26 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "frontend.kicad_sch"
+			(at 175.26 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "object67"
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2"
+					(page "5")
+				)
+			)
+			(project "xsp_main"
+				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933"
+					(page "4")
+				)
+			)
 		)
 	)
 	(sheet
@@ -187,6 +239,17 @@
 					(page "4")
 				)
 			)
+			(project "xsp_main"
+				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933"
+					(page "2")
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
