@@ -1,4 +1,4 @@
-27436676993412154
+27440220818154467
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108758,6 +108758,20 @@ Integrated Circuit
 0
 49
 49
+object67
+SOIC127P1040X275-21N
+DWP0020B
+Integrated Circuit
+0
+21
+21
+object67
+SWITCHCRAFT_SN37A12B
+
+
+0
+3
+3
 object67
 TAA5242IRGER
 TAA5242IRGER-8

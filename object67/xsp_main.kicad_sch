@@ -100,8 +100,8 @@
 		)
 	)
 	(sheet
-		(at 78.74 54.61)
-		(size 55.88 34.29)
+		(at 73.66 36.83)
+		(size 66.04 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -116,7 +116,7 @@
 		)
 		(uuid "f43f4198-176f-4b92-97fe-5a3f8cda9d3b")
 		(property "Sheetname" "Audio"
-			(at 78.74 53.8984 0)
+			(at 73.66 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 78.74 89.4846 0)
+			(at 73.66 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,18 +133,8 @@
 				(justify left top)
 			)
 		)
-		(pin "BICK" input
-			(at 134.62 73.66 0)
-			(uuid "54c94b73-644c-4368-a962-3e4e6d120d06")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CLK_44.1_EN" input
-			(at 134.62 63.5 0)
+			(at 139.7 45.72 0)
 			(uuid "7a6657c5-0d61-4fe6-9e3f-c046f60cbaaa")
 			(effects
 				(font
@@ -154,7 +144,7 @@
 			)
 		)
 		(pin "CLK_48_EN" input
-			(at 134.62 60.96 0)
+			(at 139.7 43.18 0)
 			(uuid "be8d5ab3-2dfd-4da9-8948-76791aba443c")
 			(effects
 				(font
@@ -164,7 +154,7 @@
 			)
 		)
 		(pin "CLK_EN" input
-			(at 134.62 58.42 0)
+			(at 139.7 40.64 0)
 			(uuid "23720582-e5ce-4678-9acb-eb22edb84434")
 			(effects
 				(font
@@ -173,18 +163,8 @@
 				(justify right)
 			)
 		)
-		(pin "LRCK" input
-			(at 134.62 76.2 0)
-			(uuid "a5871d7a-5ff3-4e68-900a-cf414e90c108")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MLCK_{MCU}" input
-			(at 134.62 71.12 0)
+			(at 139.7 53.34 0)
 			(uuid "eb567684-dea7-41ff-9970-616bfecbbcab")
 			(effects
 				(font
@@ -194,7 +174,7 @@
 			)
 		)
 		(pin "PDN" input
-			(at 134.62 67.31 0)
+			(at 139.7 49.53 0)
 			(uuid "5bb8aa4e-5a5d-4143-8e3b-9e55b621b541")
 			(effects
 				(font
@@ -204,7 +184,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 134.62 83.82 0)
+			(at 139.7 64.77 0)
 			(uuid "08657d30-c78e-4fd3-a59c-2c76fbb0200b")
 			(effects
 				(font
@@ -214,7 +194,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 134.62 86.36 0)
+			(at 139.7 67.31 0)
 			(uuid "786865ee-767a-4591-9f8b-44b6a65859df")
 			(effects
 				(font
@@ -223,14 +203,154 @@
 				(justify right)
 			)
 		)
-		(pin "SDATA" input
-			(at 134.62 78.74 0)
-			(uuid "374115cf-2acf-4276-8d83-2ef934e08857")
+		(pin "AOUTLN" input
+			(at 139.7 71.12 0)
+			(uuid "7d15224a-dc0f-4fdc-9b5c-921c7ec1c267")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "AOUTLP" input
+			(at 139.7 73.66 0)
+			(uuid "3c473449-1a94-4ff0-98ac-b3cfc28a3b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOUTRN" input
+			(at 139.7 76.2 0)
+			(uuid "ccf5d3cd-21c3-4217-bf79-9169d99442ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOUTRP" input
+			(at 139.7 78.74 0)
+			(uuid "0cf0402b-d82e-4e54-8bba-364901fb54be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Audio_{IN}LN" input
+			(at 73.66 43.18 180)
+			(uuid "f2c03d86-f860-41d0-a2e7-ae9579ca7619")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Audio_{IN}LP" input
+			(at 73.66 45.72 180)
+			(uuid "756c0237-f9ba-4de0-86d3-b1faf1d778c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Audio_{IN}RN" input
+			(at 73.66 50.8 180)
+			(uuid "13e5c71f-2002-4cb7-a7c5-ef546d108f92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Audio_{IN}RP" input
+			(at 73.66 53.34 180)
+			(uuid "7c514c1f-4396-4157-9a12-9fee0d8ecbb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BICK_{ADC}" input
+			(at 73.66 57.15 180)
+			(uuid "c84c5d30-f793-4455-94df-72c2c9e9d704")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BICK_{DAC}" input
+			(at 73.66 59.69 180)
+			(uuid "521d6565-9b14-465f-9d91-41fd35fc19b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPO_{ADC}" input
+			(at 73.66 62.23 180)
+			(uuid "89246c39-a7a8-4a08-9211-dba04d1be7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LRCK_{ADC}" input
+			(at 73.66 64.77 180)
+			(uuid "3142a8a7-781b-47b8-afaf-60f88962f6bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LRCK_{DAC}" input
+			(at 73.66 67.31 180)
+			(uuid "888fcb4c-3a87-4ca4-b13c-826e9a7f4b02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDATA_{ADC}" input
+			(at 73.66 69.85 180)
+			(uuid "36348443-8c1e-462a-80a0-a1357773ec41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDATA_{DAC}" input
+			(at 73.66 72.39 180)
+			(uuid "357dc6bc-3a0a-4a58-afe2-6bebf405cbe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
