@@ -1,0 +1,12 @@
+Eddy's to do list because he's stupid:
+    Spec PHY
+        Configure in STM32MX
+
+    Configure MCU in MX
+        Active peripherals:
+            USB PHY
+            SPDIFRX
+            SAI x2
+                Input & output
+
+
