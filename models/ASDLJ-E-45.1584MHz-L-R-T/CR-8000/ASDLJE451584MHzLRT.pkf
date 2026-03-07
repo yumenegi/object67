@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ASDLJE451584MHzLRT"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ASDLJE451584MHzLRT")
+        (spec "default")
+    )
+)

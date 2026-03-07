@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ASDLJ-E-45.1584MHz-L-R-T
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2025-04-13 05:47:47
+Downloaded=2026-03-07 04:51:15
+3D=Y

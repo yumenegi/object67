@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASDLJ-E-49.152MHZ-L-R-T
+D 49.152 MHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead
+K
+F https://abracon.com/datasheets/ASDLJ.pdf
+$ENDCMP
+#
+#End Doc Library

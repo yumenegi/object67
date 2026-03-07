@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ASDLJ-E-49_152MHZ-L-R-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-04-07-05:35:29)
+    (mountForm default
+        (footprintRef "ASDLJE49152MHZLRT")
+        (spec "System")
+    )
+)

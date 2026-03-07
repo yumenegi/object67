@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ASDLJ_E_45.1584MHz_L_R_T'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ABRACON", "ASDLJ-E-45.1584MHz-L-R-T" (!) = "", "ASDLJE451584MHzLRT", "Other", "815-ASDLJE451584MLRT", "https://www.mouser.co.uk/ProductDetail/ABRACON/ASDLJ-E-45.1584MHz-L-R-T?qs=wT7LY0lnAe3sHOZDDuH%252Bxw%3D%3D", "", "", "45.1584 MHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead", "https://www.digikey.ph/en/products/detail/abracon-llc/ASDLJ-E-45-1584MHZ-L-R-T/24387249", "1 mm"
+END_PART
+
+END.
