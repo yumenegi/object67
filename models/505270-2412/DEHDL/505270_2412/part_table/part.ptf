@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '505270_2412'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "505270-2412" (!) = "", "5052702412", "Other", "538-505270-2412", "https://www.mouser.co.uk/ProductDetail/Molex/505270-2412?qs=byeeYqUIh0PIyQ%2FIWytBRA%3D%3D", "", "", "Board to Board & Mezzanine Connectors SlimStack .35MM SSB RP REC 24CKT ARMRNAL", "https://www.molex.com/molex/products/part-detail/pcb_receptacles/5052702412", "0.78 mm"
+END_PART
+
+END.

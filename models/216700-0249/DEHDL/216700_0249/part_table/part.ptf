@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '216700_0249'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "216700-0249" (!) = "", "2167000249", "Other", "", "", "", "", "Board to Board & Mezzanine Connectors Board-to-Board Recept 0.35mm Pitch  0.60mm Mated Hght 1.90mm Mated Width 24 Ckts", "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/216/216700/2167000249_sd.pdf", "0.66 mm"
+END_PART
+
+END.

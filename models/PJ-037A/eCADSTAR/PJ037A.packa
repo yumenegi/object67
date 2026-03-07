@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PJ-037A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-27-15:56:09)
+    (mountForm default
+        (footprintRef "PJ037A")
+        (spec "System")
+    )
+)

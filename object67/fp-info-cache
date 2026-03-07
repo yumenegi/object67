@@ -1,4 +1,4 @@
-27441992732114781
+27447310999045391
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108745,6 +108745,13 @@ Varistor VF
 2
 2
 object67
+2167000249
+216700-0249-2
+Connector
+0
+30
+30
+object67
 DUALRCA
 
 
@@ -108759,12 +108766,26 @@ XO (Standard) CMOS Oscillator 3.3V Standby (Power Down) 4-SMD, No Lead
 4
 4
 object67
+PJ037A
+PJ-037A-1
+Connector
+0
+2
+2
+object67
 QFN50P700X700X100-49N-D
 qfn48
 Integrated Circuit
 0
 49
 49
+object67
+QFN65P500X500X100-21N-D
+TPS7A3301RGWR-1
+Integrated Circuit
+0
+21
+21
 object67
 SOIC127P1040X275-21N
 DWP0020B

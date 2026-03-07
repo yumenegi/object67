@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS7A4701RGWT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS7A4701RGWT" (!) = "", "QFN65P500X500X100-21N-D", "Quad Flat No-Lead", "595-TPS7A4701RGWT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A4701RGWT?qs=2YfbMANv380lIzdxzN9K4Q%3D%3D", "TPS7A4701RGWT", "https://www.arrow.com/en/products/tps7a4701rgwt/texas-instruments?utm_currency=USD&region=nac", "TEXAS INSTRUMENTS - TPS7A4701RGWT - LDO, ADJ, 1.4V-34V, 1A, VQFN-20", "http://www.ti.com/lit/gpn/tps7a47", "1 mm"
+END_PART
+
+END.

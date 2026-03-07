@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS7A3301RGWR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-06-22-02:40:16)
+    (mountForm default
+        (footprintRef "QFN65P500X500X100-21N-D")
+        (spec "System")
+    )
+)

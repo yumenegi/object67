@@ -1,0 +1,18 @@
+.TPS7A4701RGWT :1 ;TEXAS INSTRUMENTS - TPS7A4701RGWT - LDO, ADJ, 1.4V-34V, 1A, VQFN-20
+QFN65P500X500X100-21N-D
+*STM IC
+*NGS
+*PLB 1="OUT_1" 2="NC_1" 3="SENSE/FB" 4="6P4V2" 5="6P4V1" 6="3P2V" 7="GND_1" 8="1P6V" 9="0P8V" 10="0P4V" 11="0P2V" 12="0P1V" 13="EN" 14="NR" 15="IN_1" 16="IN_2" 17="NC_2" 18="NC_3" 19="NC_4" 20="OUT_2" 21="GND_2"
+*MXP 21
+*DFN TPS7A4701RGWT
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS7A4701RGWT)
+~!Mouser Part Number (595-TPS7A4701RGWT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A4701RGWT?qs=2YfbMANv380lIzdxzN9K4Q%3D%3D)
+~!Arrow Part Number (TPS7A4701RGWT)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps7a4701rgwt/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tps7a47)
+~!Height (1mm)
+~!3D_Model (TPS7A4701RGWT)
+TPS7A4701RGWT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 

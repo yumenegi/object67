@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS7A3301RGWR
+D -3V to -36V Vin, 1A output current, ultra-low-noise, high-PSRR, low-dropout (LDO) linear regulator
+K
+F http://www.ti.com/lit/ds/symlink/tps7a33.pdf
+$ENDCMP
+#
+#End Doc Library

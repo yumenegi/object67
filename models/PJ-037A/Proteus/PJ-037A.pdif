@@ -1,0 +1,158 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PJ-037A"
+   (description "PJ-037A - 2.0 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Dc Power Jack Connector")
+   (family "CON")
+   (package "PJ037A")
+   (attribute "Datasheet Link" "https://www.sameskydevices.com/product/resource/PJ-037A.pdf")
+   (attribute "Geometry.Height" "11mm")
+   (attribute "Manufacturer_Name" "Same Sky")
+   (attribute "Manufacturer_Part_Number" "PJ-037A")
+   (attribute "Mouser Part Number" "490-PJ-037A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/PJ-037A?qs=WyjlAZoYn53bdNRXfildEA%3D%3D")
+   (attribute "Arrow Part Number" "PJ-037A")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/pj-037a/cui-devices?utm_currency=USD&region=nac")
+   (gate
+    (symbol "PJ-037A")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "PJ-037A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PJ037A"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -13.7 -4.5)
+      (pt 0.8 -4.5)
+      (pt 0.8 4.5)
+      (pt -13.7 4.5)
+      (pt -13.7 -4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.8 3.25)
+      (pt 0.8 3.25)
+      (pt 0.8 4.5)
+      (pt 0.8 4.5)
+      (pt 0.8 3.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.8 4.5)
+      (pt -13.7 4.5)
+      (pt -13.7 4.5)
+      (pt 0.8 4.5)
+      (pt 0.8 4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -13.7 4.5)
+      (pt -13.7 4.5)
+      (pt -13.7 -4.5)
+      (pt -13.7 -4.5)
+      (pt -13.7 4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -13.7 -4.5)
+      (pt 0.8 -4.5)
+      (pt 0.8 -4.5)
+      (pt -13.7 -4.5)
+      (pt -13.7 -4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.8 -4.5)
+      (pt 0.8 -4.5)
+      (pt 0.8 -3.5)
+      (pt 0.8 -3.5)
+      (pt 0.8 -4.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -14.7 5.5)
+      (pt 3.8 5.5)
+      (pt 3.8 -5.5)
+      (pt -14.7 -5.5)
+      (pt -14.7 5.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.7 2.8)
+      (arc (pt 2.700 2.800) (pt 2.700 2.750) (pt 2.800 2.850) (start 180.0) (sweep 180.0))
+      (pt 2.8 2.8)
+      (arc (pt 2.800 2.800) (pt 2.700 2.750) (pt 2.800 2.850) (start 180.0) (sweep .0))
+      (pt 2.7 2.8)
+      (arc (pt 2.700 2.800) (pt 2.700 2.750) (pt 2.800 2.850) (start 180.0) (sweep 180.0))
+      (pt 2.8 2.8))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -6.000 0.000) (padstack 2))
+   (padstack 0
+    (hole 3.64)
+    (plated true)
+    (pad (layer TCOP) (round 5.460))
+    (pad (layer INNER) (round 5.460))
+    (pad (layer BCOP) (round 5.460))
+   )
+   (padstack 2
+    (hole 3.16)
+    (plated true)
+    (pad (layer TCOP) (round 4.740))
+    (pad (layer INNER) (round 4.740))
+    (pad (layer BCOP) (round 4.740))
+   )
+   (model "PJ-037A.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
