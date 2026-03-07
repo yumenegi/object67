@@ -1,4 +1,4 @@
-27447310999045391
+27450856717964346
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108751,6 +108751,20 @@ Connector
 0
 30
 30
+object67
+ASDLJE49152MHZLRT
+2.5*2*1
+Crystal or Oscillator
+0
+4
+4
+object67
+ASDLJE451584MHzLRT
+4-SMD, No Lead_2025-4
+Crystal or Oscillator
+0
+4
+4
 object67
 DUALRCA
 
