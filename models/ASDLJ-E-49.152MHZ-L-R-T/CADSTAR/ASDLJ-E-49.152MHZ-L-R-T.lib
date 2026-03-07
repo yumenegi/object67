@@ -1,0 +1,18 @@
+.ASDLJ-E-49.152MHZ-L-R-T :1 ;49.152 MHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead
+ASDLJE49152MHZLRT
+*STM Y
+*NGS
+*PLB 1="OE" 2="GND" 3="OUTPUT" 4="VDD"
+*MXP 4
+*DFN ASDLJ-E-49.152MHZ-L-R-T
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ASDLJ-E-49.152MHZ-L-R-T)
+~!Mouser Part Number (815-ASDLJE49152MHLRT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ASDLJ-E-49.152MHz-L-R-T?qs=wT7LY0lnAe3ZSqewNL8EtA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://abracon.com/datasheets/ASDLJ.pdf)
+~!Height (1mm)
+~!3D_Model (ASDLJ-E-49.152MHZ-L-R-T)
+ASDLJ-E-49.152MHZ-L-R-T
+1.1!U 2.1!U 3.1!U 4.1!U 

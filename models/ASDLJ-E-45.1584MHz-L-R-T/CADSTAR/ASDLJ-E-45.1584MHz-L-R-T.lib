@@ -1,0 +1,18 @@
+.ASDLJ-E-45.1584MHz-L-R-T :1 ;45.1584 MHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead
+ASDLJE451584MHzLRT
+*STM Y
+*NGS
+*PLB 1="OE" 2="GND" 3="OUTPUT" 4="VDD"
+*MXP 4
+*DFN ASDLJ-E-45.1584MHz-L-R-T
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ASDLJ-E-45.1584MHz-L-R-T)
+~!Mouser Part Number (815-ASDLJE451584MLRT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ASDLJ-E-45.1584MHz-L-R-T?qs=wT7LY0lnAe3sHOZDDuH%252Bxw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.digikey.ph/en/products/detail/abracon-llc/ASDLJ-E-45-1584MHZ-L-R-T/24387249)
+~!Height (1mm)
+~!3D_Model (ASDLJ-E-45.1584MHz-L-R-T)
+ASDLJ-E-45.1584MHz-L-R-T
+1.1!U 2.1!U 3.1!U 4.1!U 
