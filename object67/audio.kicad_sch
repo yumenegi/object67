@@ -4545,6 +4545,10 @@
 		(uuid "229e0dcc-095a-437e-acd0-08d9d2641ae8")
 	)
 	(no_connect
+		(at 91.44 124.46)
+		(uuid "33c0efa6-6b24-4e9d-87bd-43a527ef780f")
+	)
+	(no_connect
 		(at 91.44 114.3)
 		(uuid "3b210a85-c050-4286-82bf-105a4465d5d5")
 	)
@@ -4563,6 +4567,10 @@
 	(no_connect
 		(at 232.41 255.27)
 		(uuid "f227ba06-59ee-429a-ac45-ef6a7ef914d6")
+	)
+	(no_connect
+		(at 91.44 121.92)
+		(uuid "f87e8cb7-97b6-4770-9598-a1ac43e0b7c0")
 	)
 	(wire
 		(pts
@@ -6276,6 +6284,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 71.12) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5ee250-f9d6-4742-b033-e441c175a586")
+	)
+	(wire
+		(pts
 			(xy 337.82 48.26) (xy 337.82 71.12)
 		)
 		(stroke
@@ -7772,7 +7790,7 @@
 	)
 	(global_label "MLCK_{DAC}"
 		(shape input)
-		(at 104.14 78.74 90)
+		(at 104.14 71.12 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7782,7 +7800,7 @@
 		)
 		(uuid "f717e664-272b-463e-9634-ee073e2fe9ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 67.7816 90)
+			(at 104.14 60.1616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,6 +9526,75 @@
 			(project "xsp_main"
 				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 104.14 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "301b367e-03d6-4581-83a8-49d3ca701d80")
+		(property "Reference" "R46"
+			(at 102.362 79.248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22"
+			(at 104.14 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79b4e8f7-123d-4b09-9075-800b81cb29a8")
+		)
+		(pin "2"
+			(uuid "b4cedd60-b0b7-4dee-8227-ef34f51ece22")
+		)
+		(instances
+			(project ""
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
+					(reference "R46")
 					(unit 1)
 				)
 			)
