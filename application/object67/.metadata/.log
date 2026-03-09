@@ -1,0 +1,12 @@
+!SESSION 2026-03-02 18:29:23.934 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-02 18:29:43.785
+!MESSAGE Log4j2 initialized with config file /home/eddy/object67/application/object67/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-02 18:29:55.846
+!MESSAGE Started RMI Server, listening on port 41337
