@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA1612AIDRGR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPA1612AIDRGR" (!) = "", "SON50P300X300X80-9N-D", "Small Outline No-lead", "595-OPA1612AIDRGR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA1612AIDRGR?qs=m1T3c8F5IUKK0sm07a9upg%3D%3D", "OPA1612AIDRGR", "https://www.arrow.com/en/products/opa1612aidrgr/texas-instruments?utm_currency=USD&region=nac", "SoundPlus Audio Operational Amplifier with 1.1nV/Hz Noise, Low THD and Precision", "http://www.ti.com/lit/ds/symlink/opa1612.pdf", "0.8 mm"
+END_PART
+
+END.

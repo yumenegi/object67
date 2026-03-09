@@ -7204,7 +7204,7 @@
 		(lib_id "Amplifier_Operational:OPA1612AxD")
 		(at 73.66 137.16 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7281,7 +7281,7 @@
 			(project ""
 				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/30fca41d-7092-44d3-82bc-0f6b1e155540"
 					(reference "U4")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -8916,7 +8916,7 @@
 		(lib_id "Amplifier_Operational:OPA1612AxD")
 		(at 158.75 139.7 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8993,7 +8993,7 @@
 			(project ""
 				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/30fca41d-7092-44d3-82bc-0f6b1e155540"
 					(reference "U4")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
