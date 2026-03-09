@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADP5070AREZ'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "ADP5070AREZ" (!) = "", "SOP65P640X120-21N", "Small Outline Packages", "584-ADP5070AREZ", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP5070AREZ?qs=NEWnq6vH5Lcc%2FMGqhfnITw%3D%3D", "ADP5070AREZ", "https://www.arrow.com/en/products/adp5070arez/analog-devices?region=nac", "Switching Voltage Regulators uPMU V+/V- sw reg for bipolarADC/DAC/AMP", "https://www.analog.com/media/en/technical-documentation/data-sheets/adp5070.pdf", "1.2 mm"
+END_PART
+
+END.

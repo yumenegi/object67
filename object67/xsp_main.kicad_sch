@@ -13752,7 +13752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -14096,7 +14096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -14230,7 +14230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 40.64 0)
 			(effects
 				(font
@@ -14363,7 +14363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 59.69 0)
 			(effects
 				(font
@@ -15945,7 +15945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 50.8 0)
 			(effects
 				(font
@@ -16673,7 +16673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 121.92 57.15 0)
 			(effects
 				(font
@@ -17967,7 +17967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm"
+		(property "Footprint" "object67:SOP65P640X120-21N"
 			(at 80.01 86.36 0)
 			(effects
 				(font
@@ -20155,7 +20155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -20288,7 +20288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 52.07 60.96 0)
 			(effects
 				(font

@@ -1,0 +1,18 @@
+.ADP5070AREZ :1 ;Switching Voltage Regulators uPMU V+/V- sw reg for bipolarADC/DAC/AMP
+SOP65P640X120-21N
+*STM IC
+*NGS
+*PLB 1="PGND" 2="SW1" 3="INBK" 4="SYNC/FREQ" 5="SEQ" 6="SLEW" 7="FB1" 8="COMP1" 9="EN1" 10="SS" 11="EN2" 12="COMP2" 13="FB2" 14="VREF" 15="AGND" 16="VREG" 17="PVIN1" 18="PVINSYS" 19="PVIN2" 20="SW2" 21="EPAD"
+*MXP 21
+*DFN ADP5070AREZ
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (ADP5070AREZ)
+~!Mouser Part Number (584-ADP5070AREZ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP5070AREZ?qs=NEWnq6vH5Lcc%2FMGqhfnITw%3D%3D)
+~!Arrow Part Number (ADP5070AREZ)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/adp5070arez/analog-devices?region=nac)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/adp5070.pdf)
+~!Height (1.2mm)
+~!3D_Model (ADP5070AREZ)
+ADP5070AREZ
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 

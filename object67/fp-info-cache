@@ -1,4 +1,4 @@
-27450856717964346
+27452629805663382
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108803,6 +108803,13 @@ Integrated Circuit
 object67
 SOIC127P1040X275-21N
 DWP0020B
+Integrated Circuit
+0
+21
+21
+object67
+SOP65P640X120-21N
+ep(TSSOP)
 Integrated Circuit
 0
 21

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP5070AREZ
+D Switching Voltage Regulators uPMU V+/V- sw reg for bipolarADC/DAC/AMP
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adp5070.pdf
+$ENDCMP
+#
+#End Doc Library
