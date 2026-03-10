@@ -13055,7 +13055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -14986,7 +14986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 53.34 0)
 			(effects
 				(font
@@ -15388,7 +15388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 68.58 0)
 			(effects
 				(font
@@ -19982,8 +19982,8 @@
 		)
 	)
 	(sheet
-		(at 344.17 209.55)
-		(size 55.88 34.29)
+		(at 360.68 218.44)
+		(size 39.37 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19998,7 +19998,7 @@
 		)
 		(uuid "006d0bff-33b2-4be6-84af-b40b2edde804")
 		(property "Sheetname" "Motor Controller"
-			(at 344.17 208.8384 0)
+			(at 360.68 217.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20007,7 +20007,7 @@
 			)
 		)
 		(property "Sheetfile" "motor.kicad_sch"
-			(at 344.17 244.4246 0)
+			(at 360.68 244.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20029,8 +20029,8 @@
 		)
 	)
 	(sheet
-		(at 342.9 162.56)
-		(size 55.88 36.83)
+		(at 360.68 187.96)
+		(size 39.37 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20045,7 +20045,7 @@
 		)
 		(uuid "30fca41d-7092-44d3-82bc-0f6b1e155540")
 		(property "Sheetname" "Analog Frontend"
-			(at 342.9 161.8484 0)
+			(at 360.68 187.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20054,7 +20054,7 @@
 			)
 		)
 		(property "Sheetfile" "frontend.kicad_sch"
-			(at 342.9 199.9746 0)
+			(at 360.68 212.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20076,8 +20076,8 @@
 		)
 	)
 	(sheet
-		(at 344.17 120.65)
-		(size 55.88 31.75)
+		(at 360.68 154.94)
+		(size 39.37 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20092,7 +20092,7 @@
 		)
 		(uuid "f43f4198-176f-4b92-97fe-5a3f8cda9d3b")
 		(property "Sheetname" "Audio"
-			(at 344.17 119.9384 0)
+			(at 360.68 154.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20101,7 +20101,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 344.17 152.9846 0)
+			(at 360.68 183.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20118,6 +20118,48 @@
 			(project "xsp_main"
 				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 360.68 121.92)
+		(size 39.37 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4fa97e7-9e5f-4d36-b063-9bb9e512bfcf")
+		(property "Sheetname" "MCU"
+			(at 360.68 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 360.68 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "object67"
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2"
+					(page "6")
 				)
 			)
 		)

@@ -716,6 +716,10 @@
     [
       "30fca41d-7092-44d3-82bc-0f6b1e155540",
       "Analog Frontend"
+    ],
+    [
+      "f4fa97e7-9e5f-4d36-b063-9bb9e512bfcf",
+      "MCU"
     ]
   ],
   "text_variables": {}

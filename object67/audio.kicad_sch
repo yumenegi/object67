@@ -4347,12 +4347,6 @@
 		(uuid "83cb5996-dfc7-4cfd-815d-6ba1d4d7f1eb")
 	)
 	(junction
-		(at 236.22 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84f4227c-2aae-45a5-9914-bf9aba2d7d11")
-	)
-	(junction
 		(at 121.92 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5546,7 +5540,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 247.65) (xy 232.41 247.65)
+			(xy 232.41 247.65) (xy 241.3 247.65)
 		)
 		(stroke
 			(width 0)
@@ -6873,16 +6867,6 @@
 			(type default)
 		)
 		(uuid "dad3520d-0cfc-46a9-9d78-9ddae3954e6e")
-	)
-	(wire
-		(pts
-			(xy 241.3 247.65) (xy 236.22 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db365d40-c118-4e3e-a103-2679e1e78d10")
 	)
 	(wire
 		(pts
@@ -10037,73 +10021,6 @@
 			(project "xsp_main"
 				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 236.22 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "412c5a73-2781-4443-9a87-dde83192bf73")
-		(property "Reference" "TP9"
-			(at 238.76 243.0779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 238.76 245.6179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 241.3 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 236.22 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ce9a9f7-4010-4bbb-b8b2-ab1a8505f801")
-		)
-		(instances
-			(project "object67"
-				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
