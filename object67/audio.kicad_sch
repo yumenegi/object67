@@ -6150,6 +6150,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 71.12) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fce9a0-bf76-41c2-9c46-f3d4c263ddb5")
+	)
+	(wire
+		(pts
 			(xy 140.97 111.76) (xy 140.97 109.22)
 		)
 		(stroke
@@ -6247,16 +6257,6 @@
 			(type default)
 		)
 		(uuid "98a9885d-2a88-4d23-84d2-e89684b6ce90")
-	)
-	(wire
-		(pts
-			(xy 104.14 71.12) (xy 104.14 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a5ee250-f9d6-4742-b033-e441c175a586")
 	)
 	(wire
 		(pts
@@ -7172,24 +7172,24 @@
 			)
 		)
 	)
-	(global_label "BICK_{ADC}"
+	(global_label "CLK_{49.152M}"
 		(shape input)
-		(at 295.91 55.88 180)
+		(at 381 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "135edc84-0a13-4c4b-8d3c-9a67dab7bc2d")
+		(uuid "08ff1e1c-efbf-4c64-b3f0-974780207cf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.5563 55.88 0)
+			(at 394.087 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7207,6 +7207,28 @@
 		(uuid "151b7599-17ce-433c-9107-eac4c7ec1069")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.5796 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDATA_{ADC}"
+		(shape input)
+		(at 290.83 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "251962bf-801d-4eb7-804a-9c5000a24075")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.2668 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,50 +7273,6 @@
 		(uuid "377a03af-dd7e-4bc0-957b-916d2a7dce63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.8806 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LRCK_{ADC}"
-		(shape input)
-		(at 295.91 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ad88fa5-5f17-43c6-ada0-cd11964eab0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.133 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MLCK_{DAC}"
-		(shape input)
-		(at 195.58 252.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f9d78ae-0241-484e-84c3-a4e0939551c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.6216 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,6 +7344,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MLCK_{DAC}"
+		(shape input)
+		(at 195.58 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5650da06-2cd0-4dc1-a6cb-03ab031431c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.6216 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7546,28 +7546,6 @@
 			)
 		)
 	)
-	(global_label "CLK_{49.152M}"
-		(shape input)
-		(at 375.92 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1e6a767-1d8f-4d61-8dc1-fb0ce1c42640")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 389.007 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 59.69 119.38 180)
@@ -7590,9 +7568,9 @@
 			)
 		)
 	)
-	(global_label "SDATA_{ADC}"
+	(global_label "BICK_{ADC}"
 		(shape input)
-		(at 295.91 60.96 180)
+		(at 290.83 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7600,14 +7578,36 @@
 			)
 			(justify right)
 		)
-		(uuid "af301f34-6762-487a-96eb-8eda1fec6523")
+		(uuid "aef8e245-fb68-47b7-b81e-bfb834a40dc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.3468 60.96 0)
+			(at 280.4763 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_{45.1584M}"
+		(shape input)
+		(at 295.91 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c37d7d76-3bcb-464a-8494-33817f221315")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.9646 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7634,24 +7634,24 @@
 			)
 		)
 	)
-	(global_label "CLK_{45.1584M}"
+	(global_label "LRCK_{ADC}"
 		(shape input)
-		(at 290.83 165.1 0)
+		(at 290.83 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "dec43149-3536-4b41-a46c-e05c939d48d1")
+		(uuid "d32e99a5-2991-4251-b5c0-47e8a8b4b5b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8846 165.1 0)
+			(at 280.053 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8647,6 +8647,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 378.46 165.1 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24a76066-76b3-475d-b689-86c4e9e2a8b9")
+		(property "Reference" "R48"
+			(at 378.46 160.02 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 378.46 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 378.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 378.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a4374d8-86f3-4d71-a7a2-aad80a9042b1")
+		)
+		(pin "2"
+			(uuid "639c25fe-4b0c-4a57-b09a-008f23dca845")
+		)
+		(instances
+			(project "object67"
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 252.73 264.16 0)
 		(mirror y)
@@ -9482,75 +9550,6 @@
 			(project "xsp_main"
 				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 104.14 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "301b367e-03d6-4581-83a8-49d3ca701d80")
-		(property "Reference" "R46"
-			(at 102.362 79.248 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 104.14 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79b4e8f7-123d-4b09-9075-800b81cb29a8")
-		)
-		(pin "2"
-			(uuid "b4cedd60-b0b7-4dee-8227-ef34f51ece22")
-		)
-		(instances
-			(project ""
-				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
-					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -10773,7 +10772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 52.07 233.68 0)
 			(effects
 				(font
@@ -12470,6 +12469,74 @@
 			(project ""
 				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
 					(reference "Y3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 293.37 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f9532b1-a4ee-4521-b3a1-dc1a582e3817")
+		(property "Reference" "R53"
+			(at 293.37 58.42 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 293.624 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 293.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 293.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a765405-1ac8-4151-958b-b7c939fb4678")
+		)
+		(pin "2"
+			(uuid "2018e556-6ade-473f-8944-ad6af608d7fd")
+		)
+		(instances
+			(project "object67"
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -15108,6 +15175,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 293.37 60.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc0173b4-d631-4001-ac88-c7722fc9b5a6")
+		(property "Reference" "R54"
+			(at 293.37 60.96 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 293.624 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 293.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 293.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3a4a33-86af-4639-93a3-7b40ae7f211e")
+		)
+		(pin "2"
+			(uuid "7b798c33-773d-44bc-986b-a1892ab04ad9")
+		)
+		(instances
+			(project "object67"
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 96.52 232.41 0)
 		(unit 1)
@@ -15261,6 +15396,74 @@
 			(project "xsp_main"
 				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 293.37 165.1 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2dd9656-5224-4b19-8489-67bf264bb92c")
+		(property "Reference" "R46"
+			(at 293.37 160.02 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 293.37 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 293.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 293.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd370643-e9f7-4141-9887-df4c49eddd75")
+		)
+		(pin "2"
+			(uuid "11e41b8c-9c9d-43a6-862b-243680e8b13a")
+		)
+		(instances
+			(project "object67"
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -15644,6 +15847,74 @@
 			(project "xsp_main"
 				(path "/bff3f72a-b367-4d17-84b1-aae8062d5933/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 293.37 55.88 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec62535d-b823-4371-9de8-b51fc833d420")
+		(property "Reference" "R52"
+			(at 293.37 55.88 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 293.624 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 293.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 293.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44eb10cb-7447-4325-aabc-f17c7082f8de")
+		)
+		(pin "2"
+			(uuid "2ef3b794-c6e2-431a-8511-a638eb13d0c9")
+		)
+		(instances
+			(project "object67"
+				(path "/a52a93a9-ab60-414c-847b-3047ce4056cf/2d7be8e2-05a1-49f5-8994-604be09973f2/f43f4198-176f-4b92-97fe-5a3f8cda9d3b"
+					(reference "R52")
 					(unit 1)
 				)
 			)
