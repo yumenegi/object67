@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "2ba80d92-ab7a-470a-ab38-2166f48b6d73")
 	(paper "A4")
 	(lib_symbols
@@ -9,8 +9,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -19,6 +23,8 @@
 			)
 			(property "Value" "74LVC1GU04"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,47 +33,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "74LVC1G04, Single NOT Gate, Low-Voltage CMOS"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Single Gate NOT LVC CMOS"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOT* SG-*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74LVC1GU04_0_1"
@@ -88,7 +104,7 @@
 				(pin input line
 					(at -15.24 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -96,24 +112,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -142,7 +140,7 @@
 				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -150,6 +148,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -168,8 +184,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -178,6 +198,8 @@
 			)
 			(property "Value" "Conn_01x02_Socket"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -186,33 +208,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -221,20 +251,24 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x02_Socket_1_1"
@@ -335,8 +369,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -346,6 +384,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -355,47 +395,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -428,7 +478,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -446,7 +496,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -475,8 +525,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -485,6 +539,8 @@
 			)
 			(property "Value" "L"
 				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -493,47 +549,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Inductor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "L_0_1"
@@ -636,8 +702,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -646,6 +716,8 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -654,47 +726,57 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -714,7 +796,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -732,7 +814,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -761,8 +843,12 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
 				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -771,6 +857,8 @@
 			)
 			(property "Value" "SolderJumper_2_Bridged"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -779,47 +867,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SolderJumper*Bridged*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SolderJumper_2_Bridged_0_1"
@@ -951,8 +1049,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -961,6 +1063,8 @@
 			)
 			(property "Value" "TXS0101DBV"
 				(at 8.89 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -969,48 +1073,58 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 				(at 1.27 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txs0101.pdf"
 				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "1-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, SOT-23"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TXS0101DBV_0_1"
@@ -1111,42 +1225,6 @@
 						(type none)
 					)
 				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -2.54 12.7 270)
 					(length 2.54)
@@ -1183,17 +1261,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 12.7 270)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "V_{CCB}"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1219,6 +1297,42 @@
 						)
 					)
 				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "V_{CCB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -1226,8 +1340,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
 				(at 29.21 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1237,6 +1355,8 @@
 			)
 			(property "Value" "TORX1950A_F_"
 				(at 29.21 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1246,101 +1366,121 @@
 			)
 			(property "Footprint" "TORX1950AF"
 				(at 29.21 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://toshiba.semicon-storage.com/info/TORX1950A(F)_datasheet_en_20160418.pdf?did=45664&prodName=TORX1950A(F)"
 				(at 29.21 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Optical Receiver 10Mbps Single 50m 6-Pin )"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Height" "8.8"
 				(at 29.21 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Toshiba"
 				(at 29.21 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Part_Number" "TORX1950A(F)"
 				(at 29.21 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Part Number" "71-TORX1950A(F)"
 				(at 29.21 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TORX1950AF?qs=gev7jUp%252BQ%252BhPDbv%252Bwuk0PA%3D%3D"
 				(at 29.21 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Arrow Part Number" ""
 				(at 29.21 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Arrow Price/Stock" ""
 				(at 29.21 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "TORX1950A_F__1_1"
@@ -1467,7 +1607,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1478,17 +1618,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+3.3V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1497,38 +1643,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+3.3V_0_1"
@@ -1573,7 +1727,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1592,7 +1746,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1603,17 +1757,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+5V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1622,38 +1782,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+5V_0_1"
@@ -1698,7 +1866,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1717,7 +1885,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GNDD"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1728,17 +1896,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GNDD"
 				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1747,38 +1921,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GNDD_0_1"
@@ -1810,7 +1992,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2056,12 +2238,14 @@
 		(uuid "3b3769f4-3b5f-4e79-8949-122c1ac0de81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.8515 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2078,12 +2262,14 @@
 		(uuid "6eb05b00-0610-47af-aa0c-ab837ab99823")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.1615 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2113,13 +2299,17 @@
 		(lib_id "Device:L")
 		(at 43.18 63.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "02d54b0b-9682-45fc-aca6-461ecf050453")
 		(property "Reference" "L2"
 			(at 40.64 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,6 +2319,8 @@
 		)
 		(property "Value" "47u"
 			(at 38.862 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,29 +2330,35 @@
 		)
 		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-4040"
 			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Inductor"
 			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2170,7 +2368,7 @@
 			(uuid "5bf97675-c49f-403f-9db2-d779076b3494")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "L2")
 					(unit 1)
@@ -2182,23 +2380,29 @@
 		(lib_id "power:GNDD")
 		(at 60.96 74.93 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7f5153-f90b-45f0-9d19-05cd672027cd")
 		(property "Reference" "#PWR015"
 			(at 60.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDD"
 			(at 60.96 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,29 +2411,35 @@
 		)
 		(property "Footprint" ""
 			(at 60.96 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 60.96 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 60.96 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2248,14 +2458,18 @@
 		(lib_id "Device:R")
 		(at 55.88 36.83 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1136df4d-bb91-4f06-a302-d7f87d4695f0")
 		(property "Reference" "R6"
 			(at 55.88 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,6 +2478,8 @@
 		)
 		(property "Value" "220"
 			(at 55.88 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,29 +2488,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 55.88 38.608 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 55.88 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 55.88 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2316,23 +2538,29 @@
 		(lib_id "power:GNDD")
 		(at 140.97 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "183428ca-f033-4a7d-9d75-c0ee2bf32b40")
 		(property "Reference" "#PWR019"
 			(at 140.97 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDD"
 			(at 140.97 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,29 +2569,35 @@
 		)
 		(property "Footprint" ""
 			(at 140.97 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 140.97 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 140.97 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2382,13 +2616,17 @@
 		(lib_id "Device:C")
 		(at 43.18 71.12 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2986d7c8-0b4e-49d0-92f9-68fc605ba144")
 		(property "Reference" "C6"
 			(at 37.846 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,6 +2636,8 @@
 		)
 		(property "Value" "0.1u"
 			(at 37.846 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,29 +2647,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 43.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2439,7 +2685,7 @@
 			(uuid "c9609dde-cfe4-44d9-a1b4-13772f79a362")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "C6")
 					(unit 1)
@@ -2451,13 +2697,17 @@
 		(lib_id "74xGxx:74LVC1GU04")
 		(at 74.93 36.83 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a193332-39c9-4561-96b4-da2d3a74a30e")
 		(property "Reference" "U5"
 			(at 78.486 28.956 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,6 +2716,8 @@
 		)
 		(property "Value" "74LVC1GU04"
 			(at 78.486 31.496 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,29 +2726,35 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 74.93 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
 			(at 74.93 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "74LVC1G04, Single NOT Gate, Low-Voltage CMOS"
 			(at 74.93 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -2512,7 +2770,7 @@
 			(uuid "fa7e656f-389e-49dd-b9eb-c7f05eea5ac5")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "U5")
 					(unit 1)
@@ -2524,14 +2782,18 @@
 		(lib_id "TORX1950A_F_:TORX1950A_F_")
 		(at 63.5 62.23 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e32604e-3122-45f5-9592-9e02a277d186")
 		(property "Reference" "IC1"
 			(at 80.01 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,6 +2802,8 @@
 		)
 		(property "Value" "TORX1950A_F_"
 			(at 80.01 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,101 +2812,121 @@
 		)
 		(property "Footprint" "TORX1950A_F_:TORX1950AF"
 			(at 92.71 157.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TORX1950A(F)_datasheet_en_20160418.pdf?did=45664&prodName=TORX1950A(F)"
 			(at 92.71 257.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Optical Receiver 10Mbps Single 50m 6-Pin )"
 			(at 63.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Height" "8.8"
 			(at 92.71 457.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Toshiba"
 			(at 92.71 557.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "TORX1950A(F)"
 			(at 92.71 657.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "71-TORX1950A(F)"
 			(at 92.71 757.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TORX1950AF?qs=gev7jUp%252BQ%252BhPDbv%252Bwuk0PA%3D%3D"
 			(at 92.71 857.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Arrow Part Number" ""
 			(at 92.71 957.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Arrow Price/Stock" ""
 			(at 92.71 1057.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -2664,7 +2948,7 @@
 			(uuid "0dddf940-9a97-4dcd-9d54-511cff93b909")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "IC1")
 					(unit 1)
@@ -2676,23 +2960,29 @@
 		(lib_id "power:GNDD")
 		(at 30.48 44.45 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44705cc4-2dcb-47e5-90b3-848e04dee0b9")
 		(property "Reference" "#PWR014"
 			(at 30.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDD"
 			(at 30.48 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,29 +2991,35 @@
 		)
 		(property "Footprint" ""
 			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 30.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2742,22 +3038,28 @@
 		(lib_id "power:+3.3V")
 		(at 125.73 50.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "53857ec8-63c8-4072-9a0d-fd11a6ef5328")
 		(property "Reference" "#PWR022"
 			(at 125.73 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
 			(at 127.254 46.482 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,29 +3068,35 @@
 		)
 		(property "Footprint" ""
 			(at 125.73 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 125.73 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 125.73 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2807,22 +3115,28 @@
 		(lib_id "power:+3.3V")
 		(at 143.51 53.34 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5983a3f6-39f3-409a-8b5f-6f79cbffc8b5")
 		(property "Reference" "#PWR021"
 			(at 143.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
 			(at 145.034 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,29 +3145,35 @@
 		)
 		(property "Footprint" ""
 			(at 143.51 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 143.51 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 143.51 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2872,13 +3192,17 @@
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 125.73 54.61 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5aa8336e-947a-4367-bad4-06250c7b0f4f")
 		(property "Reference" "JP1"
 			(at 121.92 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,6 +3211,8 @@
 		)
 		(property "Value" "SolderJumper_2_Bridged"
 			(at 111.76 55.372 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,29 +3221,35 @@
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 125.73 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 125.73 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 125.73 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2927,7 +3259,7 @@
 			(uuid "6c6de95f-de7a-4a0b-b66f-185cf78c8b4f")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "JP1")
 					(unit 1)
@@ -2939,22 +3271,28 @@
 		(lib_id "power:+5V")
 		(at 43.18 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5df577bc-8f86-433f-8341-4c12b3268f42")
 		(property "Reference" "#PWR018"
 			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5V"
 			(at 43.18 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,36 +3301,42 @@
 		)
 		(property "Footprint" ""
 			(at 43.18 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 43.18 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 43.18 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "bf2a71e7-c933-40e5-a9f4-0b329d7daac1")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "#PWR018")
 					(unit 1)
@@ -3004,13 +3348,17 @@
 		(lib_id "Device:C")
 		(at 45.72 36.83 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "66db3a86-5bf4-4db8-8d06-ff7fe23bf6e9")
 		(property "Reference" "C5"
 			(at 45.72 30.988 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,6 +3367,8 @@
 		)
 		(property "Value" "4.7n"
 			(at 45.72 33.528 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,29 +3377,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 49.53 35.8648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 45.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3059,7 +3415,7 @@
 			(uuid "c9261238-b4a4-4ed2-8d02-0f399e73ac9d")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "C5")
 					(unit 1)
@@ -3071,14 +3427,18 @@
 		(lib_id "Logic_LevelTranslator:TXS0101DBV")
 		(at 140.97 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "715e0716-e7a0-4b9f-b937-dd313273f6af")
 		(property "Reference" "U3"
 			(at 156.21 57.0798 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,6 +3447,8 @@
 		)
 		(property "Value" "TXS0101DBV"
 			(at 156.21 59.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,30 +3457,36 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 142.24 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txs0101.pdf"
 			(at 140.97 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, SOT-23"
 			(at 140.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -3140,7 +3508,7 @@
 			(uuid "ed1584fb-5707-4eba-abbf-c1821f02306e")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "U3")
 					(unit 1)
@@ -3152,22 +3520,28 @@
 		(lib_id "power:+5V")
 		(at 138.43 53.34 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "71f7490d-6601-4f65-a74a-90bdbc701ad6")
 		(property "Reference" "#PWR020"
 			(at 138.43 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5V"
 			(at 136.652 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,29 +3550,35 @@
 		)
 		(property "Footprint" ""
 			(at 138.43 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 138.43 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 138.43 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3217,14 +3597,18 @@
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 25.4 39.37 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7dc2e8-1b4a-49a8-929d-a96fbb6a86c7")
 		(property "Reference" "J_SPDIF_COAX1"
 			(at 26.035 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,6 +3617,8 @@
 		)
 		(property "Value" "Conn_01x02_Socket"
 			(at 26.035 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,29 +3627,35 @@
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 25.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 25.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3273,7 +3665,7 @@
 			(uuid "00c862f5-fbeb-49bd-8102-6c8f0a0f6c75")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "J_SPDIF_COAX1")
 					(unit 1)
@@ -3285,22 +3677,28 @@
 		(lib_id "power:+3.3V")
 		(at 69.85 26.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8492287-1779-4637-bb3c-b25224b7fbbe")
 		(property "Reference" "#PWR016"
 			(at 69.85 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
 			(at 73.406 24.892 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,36 +3707,42 @@
 		)
 		(property "Footprint" ""
 			(at 69.85 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 69.85 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 69.85 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "943f7c46-8d73-4f7d-89d7-69488e563a8e")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "#PWR016")
 					(unit 1)
@@ -3350,23 +3754,29 @@
 		(lib_id "power:GNDD")
 		(at 69.85 46.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7c9d2ff-0952-4ce6-8d49-7f1472c31115")
 		(property "Reference" "#PWR017"
 			(at 69.85 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDD"
 			(at 69.85 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,36 +3785,42 @@
 		)
 		(property "Footprint" ""
 			(at 69.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 69.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 69.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "f53e047b-dbc2-4d99-851a-e509ba57a5e9")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "#PWR017")
 					(unit 1)
@@ -3416,14 +3832,18 @@
 		(lib_id "Device:R")
 		(at 35.56 40.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfe63ac9-d108-46b0-bc44-4ce98278dafc")
 		(property "Reference" "R5"
 			(at 38.1 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,6 +3853,8 @@
 		)
 		(property "Value" "75"
 			(at 38.1 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,29 +3864,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 33.782 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 35.56 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 35.56 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3474,7 +3902,7 @@
 			(uuid "d9d3d3df-d710-40c0-bcae-7fcc1515bc05")
 		)
 		(instances
-			(project ""
+			(project "motor_board"
 				(path "/b6fc042c-8182-4315-99f5-f408711f7d41/7e6cae94-04ba-479b-9ac5-876dd521f926"
 					(reference "R5")
 					(unit 1)
@@ -3486,13 +3914,17 @@
 		(lib_id "Device:R")
 		(at 71.12 21.59 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb6d6ce8-d5b8-4023-a31b-14323e8d126b")
 		(property "Reference" "R7"
 			(at 71.12 17.018 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,6 +3933,8 @@
 		)
 		(property "Value" "100"
 			(at 71.12 19.558 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,29 +3943,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 71.12 23.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 71.12 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 71.12 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
