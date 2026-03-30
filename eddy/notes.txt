@@ -10,3 +10,8 @@ Eddy's to do list because he's stupid:
                 Input & output
 
 
+Notes for display:
+    Baud rate 38,400bps
+        Configure with J1 and J2
+    Find voltage
+    Leave J2 open for Asynchronous
